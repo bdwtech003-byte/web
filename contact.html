@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Sales | bdw.tech</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body style="background:#f8fafc;">
+    <!-- Navigation -->
+    <header class="navbar scrolled" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo-link">
+                <div class="fallback-logo">
+                    <span class="logo-icon"><i class="fa-solid fa-layer-group"></i></span>
+                    BDW<span class="gradient-text">tech</span>
+                </div>
+            </a>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="services.html" class="nav-link">Solutions</a>
+                <a href="about.html" class="nav-link">Company</a>
+                <a href="contact.html" class="btn-primary-sm active" style="background:var(--text-main); color:#fff;">Contact Sales</a>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <div class="section-label reveal">Partner with us</div>
+                <h1 class="reveal delay-1">Ready to scale your <span class="gradient-text">infrastructure</span>?</h1>
+                <p class="section-desc reveal delay-2" style="margin: 0 auto;">Speak directly with our principal engineers. Let's discuss your product roadmap and architect your success.</p>
+            </div>
+        </section>
+
+        <section class="section" style="padding-top:0;">
+            <div class="container">
+                <div class="contact-card reveal delay-3">
+                    <div class="contact-info">
+                        <h2 style="font-size:2rem; margin-bottom:1rem; color:var(--text-main);">Let's Build It.</h2>
+                        <p style="color:var(--text-muted); margin-bottom:3rem;">Fill out the form to schedule a technical discovery call. We'll reply within 24 hours.</p>
+                        
+                        <div class="contact-methods">
+                            <div class="method">
+                                <div class="method-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div>
+                                    <h4>Email Us</h4>
+                                    <p>enterprise@bdw.tech</p>
+                                </div>
+                            </div>
+                            <div class="method">
+                                <div class="method-icon"><i class="fa-solid fa-earth-americas"></i></div>
+                                <div>
+                                    <h4>Global Presence</h4>
+                                    <p>Remote-first. Based in the US, operating worldwide.</p>
+                                </div>
+                            </div>
+                            <div class="method">
+                                <div class="method-icon"><i class="fa-brands fa-discord"></i></div>
+                                <div>
+                                    <h4>Dedicated Slack / Discord</h4>
+                                    <p>Direct channel access for active clients.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <form class="pro-form" id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="fname">First Name</label>
+                                    <input type="text" id="fname" required placeholder="Jane">
+                                </div>
+                                <div class="form-group">
+                                    <label for="lname">Last Name</label>
+                                    <input type="text" id="lname" required placeholder="Doe">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Work Email</label>
+                                <input type="email" id="email" required placeholder="jane@company.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Company Name</label>
+                                <input type="text" id="company" placeholder="Acme Corp">
+                            </div>
+                            <div class="form-group">
+                                <label for="budget">Estimated Budget</label>
+                                <input type="text" id="budget" placeholder="$50k+">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Project Details</label>
+                                <textarea id="message" rows="5" required placeholder="Describe your technical requirements, current stacks, and timelines..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Submit Inquiry</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer style="background:#f8fafc; border-top:1px solid var(--border);">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <div class="fallback-logo">BDW<span class="gradient-text">tech</span></div>
+                <p style="color:var(--text-muted);">Architecting perfection. Transforming complex requirements into globally scaled systems.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-col">
+                    <h4>Solutions</h4>
+                    <a href="services.html">AI Models</a><a href="services.html">Web Architecture</a><a href="services.html">Cloud Hosting</a>
+                </div>
+                <div class="link-col">
+                    <h4>Company</h4>
+                    <a href="about.html">About Us</a><a href="about.html">Careers</a><a href="contact.html">Contact</a>
+                </div>
+                <div class="link-col">
+                    <h4>Legal</h4>
+                    <a href="#">Privacy Policy</a><a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p style="color:var(--text-muted);">&copy; <span id="year"></span> BDW Technologies. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a><a href="#"><i class="fa-brands fa-x-twitter"></i></a><a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
