@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company | bdw.tech</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navbar scrolled" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo-link">
+                <div class="fallback-logo">
+                    <span class="logo-icon"><i class="fa-solid fa-layer-group"></i></span>
+                    BDW<span class="gradient-text">tech</span>
+                </div>
+            </a>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="services.html" class="nav-link">Solutions</a>
+                <a href="about.html" class="nav-link active">Company</a>
+                <a href="contact.html" class="btn-primary-sm">Contact Sales</a>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <div class="section-label reveal">Company Profile</div>
+                <h1 class="reveal delay-1">The engineers behind <span class="gradient-text">disruption</span>.</h1>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container grid-2">
+                <div class="metrics-card reveal">
+                    <div class="metric">
+                        <h3>99.99%</h3>
+                        <p>System Uptime Target</p>
+                    </div>
+                    <div class="metric">
+                        <h3>&lt; 50ms</h3>
+                        <p>Avg Infrastructure Latency</p>
+                    </div>
+                    <div class="metric">
+                        <h3>9x</h3>
+                        <p>Faster Time to Market</p>
+                    </div>
+                </div>
+                
+                <div class="reveal delay-1">
+                    <h2 class="section-title">Engineering the standards of tomorrow.</h2>
+                    <p class="text-body">At <strong>bdw.tech</strong>, we recognize that in the modern startup landscape, technical debt and poor architecture can be fatal. We don't just build websites; we construct robust digital environments designed to handle millions of requests without breaking a sweat.</p>
+                    <p class="text-body">Our team of elite engineers ensures that founders never have to worry about the "tech side." We partner intimately with visionaries, translating abstract business requirements into rigidly typed, rigorously tested, and effortlessly scalable software systems.</p>
+                    <p class="text-body">By merging artificial intelligence with traditional web architecture, we provide startups an unfair advantage over legacy competitors.</p>
+                    
+                    <div class="feature-list">
+                        <div class="feature-item"><i class="fa-solid fa-check-circle"></i> Complete CI/CD Automation</div>
+                        <div class="feature-item"><i class="fa-solid fa-check-circle"></i> Zero-Downtime Blue/Green Deployments</div>
+                        <div class="feature-item"><i class="fa-solid fa-check-circle"></i> Bank-Grade Security Standards</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section" style="background:#0f172a; color:#fff; text-align:center;">
+            <div class="container reveal">
+                <div class="section-label" style="color:#38bdf8;">Our Mission</div>
+                <h2 style="color:#fff; max-width:800px; margin:0 auto; font-size:2.5rem;">To eliminate technical friction for ambitious teams and empower them to build the impossible.</h2>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer style="background:#f8fafc; border-top:1px solid var(--border);">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <div class="fallback-logo">BDW<span class="gradient-text">tech</span></div>
+                <p style="color:var(--text-muted);">Architecting perfection. Transforming complex requirements into globally scaled systems.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-col">
+                    <h4>Solutions</h4>
+                    <a href="services.html">AI Models</a><a href="services.html">Web Architecture</a><a href="services.html">Cloud Hosting</a>
+                </div>
+                <div class="link-col">
+                    <h4>Company</h4>
+                    <a href="about.html">About Us</a><a href="about.html">Careers</a><a href="contact.html">Contact</a>
+                </div>
+                <div class="link-col">
+                    <h4>Legal</h4>
+                    <a href="#">Privacy Policy</a><a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p style="color:var(--text-muted);">&copy; <span id="year"></span> BDW Technologies. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a><a href="#"><i class="fa-brands fa-x-twitter"></i></a><a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
